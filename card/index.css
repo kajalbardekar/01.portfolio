@@ -52,14 +52,14 @@ strong {
 .content {
     position: relative;
     cursor: pointer;
-    color: black;
+    color: #f6f2f2;
     /* align-items: center; */
     align-content: center;
     text-align: center;
     font-size: larger;
     width: 650px;
     background-color: rgba(153, 249, 249, 0.436);
-    background-image: linear-gradient(rgb(227, 188, 194), rgb(37, 107, 168), rgb(179, 179, 91));
+    background-image: linear-gradient(rgb(127, 126, 126), rgb(60, 5, 5), rgb(8, 8, 7));
     margin: 100px auto;
     height: 450px;
     border: 1px solid rgb(204, 191, 191);
@@ -81,7 +81,9 @@ strong {
     top: 10px;
     left: 10px;
     padding: 8px 16px;
-    background-color: rgb(178, 243, 113);
+    background-color: white;
+
+    /* background-color: rgb(178, 243, 113); */
     outline: none;
     /* border: 1px solid gray; */
     /* outline: none; */
@@ -97,9 +99,23 @@ strong {
     height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
+    border-width: 2px;
+    border: 2px solid rgb(242, 239, 239);
 }
 .content:hover{
-   color: white;
+   color: rgb(221, 244, 151);
     /* text-shadow: 0 2 4 6; */
 
 }
+.backBtn:hover{
+    background-color: rgb(178, 243, 113);
+
+    /* background-color: white; */
+    color: black;
+    transition: 0.3;
+}
+/* .kajal:hover{
+    transform: rotate(180deg);
+    transform: translate();
+
+} */
