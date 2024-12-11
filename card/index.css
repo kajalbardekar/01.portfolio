@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+
+.cardContainer {
+    width: 650px;
+    background-color: rgb(217, 232, 232);
+    margin: 100px auto;
+    height: 450px;
+    border: 1px solid rgb(204, 191, 191);
+    border-radius: 12px;
+    position: relative;
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    opacity: 0.8;
+
+}
+
+h1,
+strong {
+    color: rgba(255, 255, 255, 0.715);
+    font-size: 35px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    /* align-content: center; */
+    text-align: center;
+
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.content {
+    position: relative;
+    cursor: pointer;
+    color: black;
+    /* align-items: center; */
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+    width: 650px;
+    background-color: rgba(153, 249, 249, 0.436);
+    background-image: linear-gradient(rgb(227, 188, 194), rgb(37, 107, 168), rgb(179, 179, 91));
+    margin: 100px auto;
+    height: 450px;
+    border: 1px solid rgb(204, 191, 191);
+    border-radius: 12px;
+
+}
+
+.hicon {
+    margin: 5px;
+    font-size: 24px;
+    color: red;
+}
+
+.backBtn {
+    cursor: pointer ;
+    display: inline-block;
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 16px;
+    background-color: rgb(178, 243, 113);
+    outline: none;
+    /* border: 1px solid gray; */
+    /* outline: none; */
+    font-size: 16px;
+    border-radius: 16px;
+    border: none;
+    color: rgb(101, 91, 91);
+    text-decoration: none;
+
+}
+.kajal{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.content:hover{
+   color: white;
+    /* text-shadow: 0 2 4 6; */
+
+}
